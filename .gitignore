@@ -1,0 +1,22 @@
+# Ignore input / output_dir
+/data/filter_input/
+/data/filter_out/
+
+# ----- filter -----
+# Ignore PPI classifier model dir
+/src/PPI_classifier/models/*
+!/src/PPI_classifier/models/.gitkeep
+
+# Ignore filtering output_dir 
+/src/filtering/tmp_output/**
+!/src/filtering/tmp_output/**/
+!/src/filtering/tmp_output/**/.gitkeep
+
+
+
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
